@@ -1,5 +1,5 @@
-a = ARGV[0].to_i
-b = ARGV[1].to_i
+height = ARGV[0].to_i
+width = ARGV[1].to_i
 
 def area(a,b)
   a * b
@@ -9,4 +9,4 @@ def total_length(a,b)
   2 * a + 2 * b
 end
 
-puts "#{area(a,b)} #{total_length(a,b)}"
+puts "#{area(height,width)} #{total_length(height,width)}"
