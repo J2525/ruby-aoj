@@ -1,16 +1,8 @@
-def compare(a,b)
-  if
-    a < b
-    puts "a < b"
-
-  elsif
-    a > b
-    puts "a > b"
-
-  else
-    a == b
-    puts "a == b"
-  end
+def compare(a, b)
+  return "a < b" if a < b
+  return "a > b" if a > b
+  "a == b"
 end
 
-puts compare(ARGV[0].to_i , ARGV[1].to_i)   
+x, y = ARGV[0].to_i, ARGV[1].to_i
+puts compare(x, y)   
