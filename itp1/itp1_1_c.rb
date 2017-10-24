@@ -1,11 +1,11 @@
 height = ARGV[0].to_i
 width = ARGV[1].to_i
 
-def area(a,b)
+def area(a, b)
   a * b
 end
 
-def total_length(a,b)
+def total_length(a, b)
   2 * a + 2 * b
 end
 
